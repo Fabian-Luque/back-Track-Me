@@ -1,0 +1,28 @@
+{
+  "name": "back-trackme",
+  "version": "1.0.0",
+  "description": "Backend del proyecto personal track-ME",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabian-Luque/back-Track-Me.git"
+  },
+  "author": "Fabian Luque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabian-Luque/back-Track-Me/issues"
+  },
+  "homepage": "https://github.com/Fabian-Luque/back-Track-Me#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.15"
+  }
+}
